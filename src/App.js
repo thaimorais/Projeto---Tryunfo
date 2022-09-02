@@ -12,7 +12,7 @@ class App extends React.Component {
       valueCard2: '0',
       valueCard3: '0',
       urlImage: '',
-      rare: '',
+      rare: 'Normal',
       superTrunfo: false,
       hasTrunfo: false,
       isSaveButtonDisabled: true,
@@ -83,32 +83,35 @@ class App extends React.Component {
       rare, superTrunfo, hasTrunfo, isSaveButtonDisabled, cardList } = this.state;
     return (
       <div>
-        <h1>Tryunfo</h1>
-        <Form
-          cardName={ card }
-          cardDescription={ description }
-          cardAttr1={ valueCard1 }
-          cardAttr2={ valueCard2 }
-          cardAttr3={ valueCard3 }
-          cardImage={ urlImage }
-          cardRare={ rare }
-          cardTrunfo={ superTrunfo }
-          hasTrunfo={ hasTrunfo }
-          isSaveButtonDisabled={ isSaveButtonDisabled }
-          onInputChange={ this.onInputChange }
-          onSaveButtonClick={ this.onSaveButtonClick }
-        />
-        <Card
-          cardName={ card }
-          cardDescription={ description }
-          cardAttr1={ valueCard1 }
-          cardAttr2={ valueCard2 }
-          cardAttr3={ valueCard3 }
-          cardImage={ urlImage }
-          cardRare={ rare }
-          cardTrunfo={ superTrunfo }
-        />
-        <section>
+        <h1 className="title">Tryunfo</h1>
+        <h3 className="title">Adicionar nova carta</h3>
+        <div className="div-body">
+          <Form
+            cardName={ card }
+            cardDescription={ description }
+            cardAttr1={ valueCard1 }
+            cardAttr2={ valueCard2 }
+            cardAttr3={ valueCard3 }
+            cardImage={ urlImage }
+            cardRare={ rare }
+            cardTrunfo={ superTrunfo }
+            hasTrunfo={ hasTrunfo }
+            isSaveButtonDisabled={ isSaveButtonDisabled }
+            onInputChange={ this.onInputChange }
+            onSaveButtonClick={ this.onSaveButtonClick }
+          />
+          <Card
+            cardName={ card }
+            cardDescription={ description }
+            cardAttr1={ valueCard1 }
+            cardAttr2={ valueCard2 }
+            cardAttr3={ valueCard3 }
+            cardImage={ urlImage }
+            cardRare={ rare }
+            cardTrunfo={ superTrunfo }
+          />
+        </div>
+        <section className="deck">
           {cardList.map((element) => (
             <Card
               key={ element.id }
