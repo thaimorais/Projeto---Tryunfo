@@ -10,9 +10,9 @@ Este é um projeto com o objetivo de testar habilidades em React, sendo:
 Jogo no estilo Super Trunfo, com a utilidade de criar um baralho com tema livre, adicionar cartas ao baralho e visualizá-las.
 
 ## Como visualizar o projeto
-* Clone o repositório;
+* Clone o repositório:
 ```git clone git@github.com:thaimorais/Projeto---Tryunfo.git```
-* Instale as depedências;
+* Instale as depedências:
 ```npm install```
-* Execute a aplicação
+* Execute a aplicação:
 ```npm start```
