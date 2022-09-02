@@ -22,6 +22,10 @@
   width: 50px;
 }
 
+.image-card {
+  width: 100%;
+}
+
 .deck {
   display: flex;
   flex-wrap: wrap;
