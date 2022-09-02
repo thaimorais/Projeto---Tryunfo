@@ -14,7 +14,7 @@ Jogo no estilo Super Trunfo, com a utilidade de criar um baralho com tema livre,
 ## Como visualizar o projeto
 * Clone o repositório:
 ```git clone git@github.com:thaimorais/Projeto---Tryunfo.git```
-* Instale as depedências:
+* Instale as dependências:
 ```npm install```
 * Execute a aplicação:
 ```npm start```
