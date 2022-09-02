@@ -1,4 +1,6 @@
 # Projeto - Tryunfo
+https://user-images.githubusercontent.com/102544688/188241164-40bc1783-7998-4bf4-ab0b-4029ed0ccc59.mp4
+
 Este é um projeto com o objetivo de testar habilidades em React, sendo:
 * Manipulação de componentes;
 * import;
