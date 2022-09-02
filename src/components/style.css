@@ -53,11 +53,17 @@
   width: 50%;
 }
 
+.atributos {
+  display: flex;
+  gap: 50px;
+}
+
 .card-preview {
   background-color: rgb(30, 87, 30);
   border: 2px solid black;
   color: aliceblue;
   height: 320px;
+  line-height: 15px;
   padding: 15px;
   width: 220px;
 }
